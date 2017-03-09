@@ -1,0 +1,29 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\ProgramData\\Chocolatey\\lib\\npm\\tools\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'dev' ]
+2 info using npm@1.4.9
+3 info using node@v7.5.0
+4 verbose run-script [ 'predev', 'dev', 'postdev' ]
+5 info predev dcs-mission-intel-ato@0.0.0
+6 info dev dcs-mission-intel-ato@0.0.0
+7 verbose unsafe-perm in lifecycle true
+8 info dcs-mission-intel-ato@0.0.0 Failed to exec dev script
+9 error dcs-mission-intel-ato@0.0.0 dev: `webpack-dev-server --contentbase src --inline --hot`
+9 error Exit status 1
+10 error Failed at the dcs-mission-intel-ato@0.0.0 dev script.
+10 error This is most likely a problem with the dcs-mission-intel-ato package,
+10 error not with npm itself.
+10 error Tell the author that this fails on your system:
+10 error     webpack-dev-server --contentbase src --inline --hot
+10 error You can get their info via:
+10 error     npm owner ls dcs-mission-intel-ato
+10 error There is likely additional logging output above.
+11 error System Windows_NT 10.0.14393
+12 error command "C:\\Program Files\\nodejs\\node.exe" "C:\\ProgramData\\Chocolatey\\lib\\npm\\tools\\node_modules\\npm\\bin\\npm-cli.js" "run" "dev"
+13 error cwd D:\Dropbox\00 - Github\dcs-mission-intel-ato
+14 error node -v v7.5.0
+15 error npm -v 1.4.9
+16 error code ELIFECYCLE
+17 verbose exit [ 1, true ]
